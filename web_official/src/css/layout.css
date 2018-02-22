@@ -1,0 +1,112 @@
+@charset "UTF-8";
+body {
+  height: auto;
+  min-width: 1440px;
+}
+
+/* 顶部导航 */
+.index-banner {
+  width: 100%;
+  min-height: 700px;
+  position: relative;
+  background: url(../images/banner.png) no-repeat;
+  overflow: auto;
+  background-size: 100% 100%;
+  margin-top: -2px;
+}
+
+.drclogo {
+  height: 60px;
+  width: auto;
+  margin-right: 100px;
+}
+.topview .nav-box {
+  background-color: #042656;
+}
+.nav-box {
+  height: auto;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+.topview .top-menubox {
+  padding: 10px 0;
+}
+
+.top-menubox {
+  width: 91%;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.menu-list {
+  letter-spacing: -0.5em;
+  line-height: 80px;
+  display: inline-block;
+}
+
+.menu-list li {
+  display: inline-block;
+  letter-spacing: normal;
+  font-size: 18px;
+  margin-right: 35px;
+  cursor: pointer;
+  user-select: none;
+  color: #fff;
+}
+
+.menu-list li:hover {
+  color: #F3B12D;
+}
+
+.menu-border {
+  padding-left: 20px;
+  border-left: 1px solid #fff;
+  display: inline-block;
+  height: 22px;
+  vertical-align: middle;
+}
+.drc-slogan {
+  width: 1290px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.drc-slogan .drc-name {
+  text-align: right;
+}
+.drc-slogan .drc-name span {
+  display: inline-block;
+  width: 480px;
+  text-align: center;
+  font-size: 80px;
+}
+.drc-slogan .top {
+  color:#fff;
+  margin-top: 15%;
+}
+.drc-slogan .bto {
+  color:#f5b031;
+}
+
+/* 内容区域 */
+.wrapper {
+  width: 100%;
+  overflow: auto;
+  margin-top: -2px;
+}
+.wrapper .drc-video {
+  height: 780px;
+  background: url(../images/bgc1.png) no-repeat;
+  background-size: 100% 100%;
+  margin-left: -2px;
+}
+.wrapper .drc-what {
+  height: 970px;
+  background: url(../images/bgc2.png) no-repeat;
+  margin-top: -2px;
+}
+.wrapper .drc-dd {
+  height: 765px;
+  background: url(../images/bgc3.png) no-repeat;
+  margin-top: -2px;
+}
