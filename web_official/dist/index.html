@@ -7,27 +7,37 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>DRC</title>
   <link rel="shortcut icon" href="./images/drcinfo.ico">
+  <link href="./css/font-awesome.css" rel="stylesheet">
   <link rel="stylesheet" href="./css/normalize.css">
   <link rel="stylesheet" href="./css/layout.css">
+  <link rel="stylesheet" href="./css/layout1440.css">
+  <link rel="stylesheet" href="./css/layout1600.css">
   <script src="./js/jquery-3.2.1.min.js"></script>
 </head>
 
 <body>
   <div class="index-banner">
     <header class="nav-box">
-      <div class="top-menubox">
-        <img class="drclogo" src="./images/logo.svg" alt="">
-        <ul class="menu-list">
-          <li>首页</li>
-          <li>平台介绍</li>
-          <li>技术特点</li>
-          <li>核心竞争力</li>
-          <li>核心团队</li>
-          <li>DRC动态</li>
-          <li>联盟伙伴</li>
-          <li>联系我们</li>
-          <li><span class="menu-border"></span>EN</li>
-        </ul>
+      <div class="nav-main">
+        <div class="top-menubox">
+          <img class="drclogo" src="./images/logo.svg" alt="">
+          <ul class="menu-list">
+            <li>首页</li>
+            <li>平台介绍</li>
+            <li>技术特点</li>
+            <li>核心竞争力</li>
+            <li>核心团队</li>
+            <li>DRC动态</li>
+            <li>联盟伙伴</li>
+            <li>联系我们</li>
+            <li>
+              <span class="menu-border"></span>EN</li>
+          </ul>
+        </div>
+        <div class="paperbox">
+          <span class="topname"><a href="">白皮书</a></span>
+          <span class="toppic"><img src="./images/whitepaper.svg" alt=""></span>
+        </div>
       </div>
     </header>
     <div class="drc-slogan">
@@ -43,12 +53,429 @@
     </div>
   </div>
   <div class="wrapper">
-    <div class="drc-video"></div>
-    <div class="drc-what"></div>
-    <div class="drc-dd"></div>
+    <div class="drc-video">
+      <!-- Modal -->
+      <div class="clearfix">
+        <div class="modal-lg clearfix" role="document">
+          <div class="modal-content">
+            <button id="mp4-close" style="outline:none;" type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <video id="drc-video" class="fl drc-videobox" poster="./images/drc.jpg" src="./images/drc.mp4" width="100%"
+              controls="controls" preload="metadata"></video>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="drc-what">
+      <div class="drc-midbox">
+        <ul class="what-list">
+          <li class="dteli">
+            <div class="topname">什么是DRC平台</div>
+            <div class="mesdte">
+              分布式监管科技协同平台DRC（Distributed Regtech Collaboration Platform）是一个分布式专业服务平台，致力用金融科技手段建立投资者、以区块链为代表的科技创新型项目、监管机构以及第三方专业服务机构之间的互信机制，发挥社区群众的智慧，共同营造自律、自治、透明、公开的区块链生态系统，促进区块链行业的稳定、有序与健康发展。
+            </div>
+            <div class="mesdte">
+              DRC崇尚“自治”、“分布”与“共享“，致力于营造一个风险可控、监管透明的生态环境！
+            </div>
+          </li>
+          <li class="imgli">
+            <img class="whatpic" src="./images/img1.svg" alt="">
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="drc-dd">
+      <div class="drc-midbox">
+        <ul class="dd-list">
+          <li class="ddimgli">
+            <img class="ddpic" src="./images/img2.svg" alt="">
+          </li>
+          <li class="ddmain">
+            <div class="dd-topname">什么是DD尽调工具</div>
+            <div class="dd-dte">
+              “人人尽调”（简称DD）是DRC平台应用之一，DD尽调工具将从项目团队评估、项目方案评估、项目技术评估、项目管理评估、经济机制模型评估等方面开展全面深入的开展尽职调查 ，从公开商业计划书、官网、社区、论坛等途径获得公开合法、有效信息，将分散的信息结构化，并从结构化信息中提炼中潜在的风险要素，通过专业化的风险评估模型客观地评价区块链项目风险程度高低。
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="drc-tech">
+      <div class="drc-midbox">
+        <ul class="tech-list">
+          <li class="dteli">
+            <div class="topname">技术特点</div>
+            <div class="mesdte">
+              DRC生态圈是一个拥有生命力的专业服务自助平台， 服务需求者、服务提供者、专家、争议仲裁员、见证者等角色参与并承担相应的社会职能， 打破组织和国家边界，形成全球化、多方协同社会体系。
+              <br /> DRC社区希望原来的专业人士可以打破各自所在阵营和公司的束缚， 到一个开放平台上施展自己的才能，获得回报，不只是经济上的， 还有名誉上的。而投资者或者需要专业服务的人和组织通过这样一个平台也能获得高效和专业的服务，
+              相比原来中心化的方式，更灵活和轻量。
+            </div>
+          </li>
+          <li class="imgli">
+            <img class="techpic" src="./images/img3.svg" alt="">
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="drc-circle">
+      <div class="drc-midbox">
+        <ul class="circle-list">
+          <li class="circleimgli">
+            <img class="circlepic" src="./images/img4.svg" alt="">
+          </li>
+          <li class="circlemain">
+            <div class="circle-dte">DRC生态圈健康环境的营造是基于配套治理机制来实现，通过制定激励机制、投票机制、争议仲裁机制、专家评价机制、信用评级机制等在服务需求方与服务供给方之间建立起一个有序、公平、共享生态环境，共同营造生态圈的健康发展。</div>
+            <div class="circleline"></div>
+            <div class="circle-dte">
+              DRC平台是一条构建在以主流公链基础上的专业服务链，利用块链式数据结构来验证与存储数据、用分布式节点共识算法来生成和更新数据、利用密码学的方式保证数据传输和访问的安全、利用由自动化脚本代码组成的智能合约来编程和操作数据的一种全新的分布式基础架构与计算范式。
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="drc-use">
+      <div class="drc-midbox">
+        <ul class="use-list">
+          <li class="dtelist">
+            <span>DRC应用领域很广泛，以投融资领域为例，智能投融资顾问DRC将提供一系列投前、投中、投后的专业服务，大大降低成本、提高效率，使投资项目的风险可控。</span>
+          </li>
+          <li class="usepic">
+            <img src="./images/img5.svg" alt="">
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- 核心竞争力 -->
+    <div class="drc-core">
+      <div class="drc-midbox">
+        <div class="main-title">
+          <div class="title">核心竞争力</div>
+          <span class="btoline"></span>
+        </div>
+        <div>
+          <ul class="corelist">
+            <li>
+              <img class="core-icon" src="./images/img6.svg" alt="">
+              <div class="midtitle">专业性</div>
+              <div class="detail">DRC项目核心团队均来自于国际知名咨询公司与全球知名科技公司，聚集区块链、大数据分析、算法等领域专家，融合了区块链社区拥有丰富区块链开发经验的实践者。</div>
+            </li>
+            <li>
+              <img class="core-icon" src="./images/img7.svg" alt="">
+              <div class="midtitle">创新性</div>
+              <div class="detail">DRC项目是全球首例应用去中心化的区块链技术在专业服务领域，融合大数据分析、算法模型、区块链技术、自然语言处理等技术手段应用于尽职调查、项目评级、风险监测、信息披露、自动化审计等领域。</div>
+            </li>
+            <li>
+              <img class="core-icon" src="./images/img8.svg" alt="">
+              <div class="midtitle">颠覆性</div>
+              <div class="detail">DRC项目分布式、自助式商业服务模式方面的大胆尝试，将彻底颠覆传统的、中心化、权威性专业机构的服务模式，让每一个科技创新企业都可以享受到专业化、普惠化的风险管控服务。</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- 发展历程 -->
+    <div class="drc-develop">
+      <div class="drc-midbox">
+        <div class="main-title">
+          <div class="title">发展历程</div>
+          <span class="btoline"></span>
+        </div>
+      </div>
+      <div class="develop-pic">
+        <img src="./images/img9.png" alt="">
+      </div>
+    </div>
+    <!-- 核心团队 -->
+    <div class="drc-team">
+      <div class="drc-midbox">
+        <div class="main-title">
+          <div class="title">核心团队</div>
+          <span class="btoline"></span>
+        </div>
+        <div class="team-main">
+          <div class="title">核心团队成员</div>
+          <ul class="teamlist">
+            <li>
+              <img src="./images/teamer1.png" alt="">
+              <div class="name">Selina Lin</div>
+              <div class="position teamer-color">DRC 基金会主席、日常执行委员会 CEO</div>
+              <div class="description">Selina Lin 女士拥有20年金融行业领域经验，专注风险管控领域10年。曾任安永金融科技转型与创新合伙人，曾任IBM风险解决方案负责人。倡导“监管科技RegTech”理念，推动科技创新领域“主动监管、过程监管、功能监管”模式</div>
+            </li>
+            <li>
+              <img src="./images/teamer2.png" alt="">
+              <div class="name">Joyce Zhang</div>
+              <div class="position teamer-color">DRC 业务总监</div>
+              <div class="description">Joyce Zhang博士从事金融风险管理与合规咨询近10年，中科院博士，曾任德勤副总监，亦曾任职于Algorithmic和IBM公司。风险量化模型专家，专长在金融市场业务、金融产品估值、风险管理模型、投资组合管理等方面</div>
+            </li>
+            <li>
+              <img src="./images/teamer3.png" alt="">
+              <div class="name">David Lai</div>
+              <div class="position teamer-color">DRC 战略总监</div>
+              <div class="description">曾担任四通博运软件技术有限公司执行董事，资深科技公司创业者、经营者与管理者；曾成功交付辽宁、湖南、贵州等八个省工商行政管理局金管工程项目，拥有丰富公司与项目经营管理经验</div>
+            </li>
+            <li>
+              <img src="./images/teamer4.png" alt="">
+              <div class="name">Jim Zhang</div>
+              <div class="position teamer-color">技术开发与运维总监</div>
+              <div class="description">拥有11年计算机软件行业工作经验，毕业于清华大学软件学院，曾任职于IBM公司、Symantec公司，在开发、测试、运维方面拥有丰富经验，熟练掌握多种编程语言（如C++/C、Java、C#、Linux Shell、R）和软件开发</div>
+            </li>
+            <li>
+              <img src="./images/teamer5.png" alt="">
+              <div class="name">Peter Bian</div>
+              <div class="position teamer-color">DRC 产品经理</div>
+              <div class="description">拥有8年互联网产品设计与项目管理相关经验，曾任笔克梧桐创新孵化器产品总监，负责产品的逻辑梳理、原型绘制、PRD文档撰写，负责推动产品上线以及产品版本迭代管理</div>
+            </li>
+            <li>
+              <img src="./images/teamer6.png" alt="">
+              <div class="name">David Cao</div>
+              <div class="position teamer-color">区块链领域顾问</div>
+              <div class="description">曾任职于IBM多伦多实验室参与Hyperledger Community的区块链项目开发。负责基于Ethereum的跨境支付项目的开发</div>
+            </li>
+            <li>
+              <img src="./images/teamer7.png" alt="">
+              <div class="name">Brain Bian</div>
+              <div class="position teamer-color">技术领域顾问</div>
+              <div class="description">十多项专利的发明者，拥有多面人机交互、人工智能方面积累了诸多成果，开发了中国第一个支持语音识别的浏览器。社区早期贡献者</div>
+            </li>
+            <li>
+              <img src="./images/teamer8.png" alt="">
+              <div class="name">Kuan Zhang</div>
+              <div class="position teamer-color">网络安全领域顾问</div>
+              <div class="description">加拿大滑铁卢大学电气与计算机工程博士学位，研究方向网络空间安全，隐私保护，大数据，智能医疗，社交网络以及物联网等</div>
+            </li>
+          </ul>
+        </div>
+        <div class="team-main">
+          <div class="title mt-8">顾问团队</div>
+          <ul class="teamlist">
+            <li>
+              <img src="./images/adviser1.png" alt="">
+              <div class="name">Ju Xie</div>
+              <div class="position adviser-color">专家顾问</div>
+              <div class="description">BTS比特股理事会理事，主流公有链项目早期参与者，GDEX交易所创始人</div>
+            </li>
+            <li>
+              <img src="./images/adviser2.png" alt="">
+              <div class="name">Leo Wang</div>
+              <div class="position adviser-color">专家顾问</div>
+              <div class="description">PreAngel Fund创始合伙人</div>
+            </li>
+            <li>
+              <img src="./images/adviser3.png" alt="">
+              <div class="name">Hua Zhang</div>
+              <div class="position adviser-color">专家顾问</div>
+              <div class="description">Lbank.info交易平台投资人、DAEX联合创始人</div>
+            </li>
+            <li>
+              <img src="./images/adviser4.png" alt="">
+              <div class="name">Jimmy Xiong</div>
+              <div class="position adviser-color">专家顾问</div>
+              <div class="description">IOTAChina社区负责人，专注于区块链创新项目的研究和投资</div>
+            </li>
+            <li>
+              <img src="./images/adviser5.png" alt="">
+              <div class="name">Peter Bian</div>
+              <div class="position adviser-color">法律顾问</div>
+              <div class="description">香港林余律师事务所创始合伙人之一</div>
+            </li>
+            <li>
+              <img src="./images/adviser6.png" alt="">
+              <div class="name">David Cao</div>
+              <div class="position adviser-color">法律顾问</div>
+              <div class="description">香港林余律师事务所法律经理</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- DRC动态 -->
+    <div class="drc-dynamic">
+      <div class="drc-midbox">
+        <div class="main-title">
+          <div class="title">DRC动态</div>
+          <span class="btoline"></span>
+        </div>
+        <!-- DRC活动 -->
+        <div class="dynalist">
+          <div class="midtitle">
+            <div class="mid-dtename">>> DRC活动</div>
+          </div>
+          <ul class="dyna-dtelist">
+            <li>
+              <div class="dynapic">
+                <a href="">
+                  <img src="./images/pic1.jpeg" alt="">
+                </a>
+              </div>
+              <div class="dynadte">曾任安永金融服务转型与创新团队合伙人、IBM风险与监管合规解决方案负责人的林扬，她专注于金融机构的风险管控与监管合规领域。</div>
+              <div class="dynatime">2017-11-19</div>
+            </li>
+            <li>
+              <div class="dynapic">
+                <a href="">
+                  <img src="./images/pic2.jpg" alt="">
+                </a>
+              </div>
+              <div class="dynadte">DRC平台联合万向区块链新链加速器成立分布式专家行研研究院，以分布式众包的方式定期开展专题研究深度分析区块链行业痛点。</div>
+              <div class="dynatime">2017-11-19</div>
+            </li>
+            <li>
+              <div class="dynapic">
+                <a href="">
+                  <img src="./images/pic3.jpg" alt="">
+                </a>
+              </div>
+              <div class="dynadte">DRC平台创始人林扬在上海第三届区块链全球峰会发表主题演讲《DRC，值得信赖的智能监管科技平台》，第一次公开发布DRC监管科技平台。</div>
+              <div class="dynatime">2017-11-19</div>
+            </li>
+          </ul>
+        </div>
+        <!-- DRC成果 -->
+        <div class="dynalist">
+          <div class="midtitle">
+            <div class="mid-dtename">>> DRC成果</div>
+          </div>
+          <ul class="dyna-dtelist">
+            <li>
+              <div class="dynapic">
+                <a href="">
+                  <img src="./images/pic4.jpeg" alt="">
+                </a>
+              </div>
+              <div class="dynadte">IOTA项目DRC深度洞察、IBM风险与监管合规解决方案负责人的林扬，她专注于金融机构的风险管控与监管合规领域。</div>
+              <div class="dynatime">2017-11-19</div>
+            </li>
+            <li>
+              <div class="dynapic">
+                <a href="">
+                  <img src="./images/pic5.png" alt="">
+                </a>
+              </div>
+              <div class="dynadte">DRC平台联合万向区块链新链加速器成立分布式专家行研研究院，以分布式众包的方式定期开展专题研究深度分析区块链行业痛点。</div>
+              <div class="dynatime">2017-11-19</div>
+            </li>
+            <li>
+              <div class="dynapic">
+                <a href="">
+                  <img src="./images/pic6.png" alt="">
+                </a>
+              </div>
+              <div class="dynadte">DRC平台创始人林扬在上海第三届区块链全球峰会发表主题演讲《DRC，值得信赖的智能监管科技平台》，第一次公开发布DRC监管科技平台。</div>
+              <div class="dynatime">2017-11-19</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- 联盟伙伴 -->
+    <div class="drc-partner">
+      <div class="drc-midbox">
+        <div class="main-title">
+          <div class="title">联盟伙伴</div>
+          <span class="btoline"></span>
+        </div>
+        <div>
+          <ul class="partnerlist">
+            <li>
+              <a href="">
+                <img src="./images/company1.png" alt="">
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="./images/company2.png" alt="">
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="./images/company3.png" alt="">
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="./images/company4.png" alt="">
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="./images/company5.png" alt="">
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="./images/company6.png" alt="">
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="./images/company7.png" alt="">
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="./images/company8.png" alt="">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </div>
-
-  some
+  <footer class="footer">
+    <div class="drc-midbox mt-8">
+      <ul class="footlist">
+        <li class="footlogo">
+          <img src="./images/drclogo_white.svg" alt="">
+        </li>
+        <li class="whitepaper">
+          <div class="name">白皮书</div>
+          <div class="whiteline"></div>
+        </li>
+        <li class="source">
+          <div class="name">
+            <span>资源</span>
+          </div>
+          <div class="addtion">
+            <span>条款和条件</span>
+          </div>
+        </li>
+        <li class="chat">
+          <div class="name">跟我们聊天</div>
+          <div class="addtion">
+            <span>
+              <i class="fa fa-telegram"></i>中文</span>
+            <span>
+              <i class="fa fa-telegram"></i>英文</span>
+          </div>
+          <div class="web">drc@drc.info</div>
+        </li>
+        <li class="link">
+          <div class="name">关注我们</div>
+          <div class="addtion">
+            <span>
+              <i class="fa fa-github"></i>
+            </span>
+            <span>
+              <i class="fa fa-medium"></i>
+            </span>
+            <span>
+              <i class="fa fa-reddit-alien"></i>
+            </span>
+            <span>
+              <i class="fa fa-facebook"></i>
+            </span>
+            <span>
+              <i class="fa fa-twitter"></i>
+            </span>
+            <span>
+              <i class="fa fa-weibo"></i>
+            </span>
+          </div>
+        </li>
+      </ul>
+      <div class="web-right">©Regtech Foundation Ltd. All rights reserved.</div>
+    </div>
+  </footer>
   <script src="./js/index.js"></script>
 </body>
 

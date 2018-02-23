@@ -40,6 +40,7 @@ gulp.task('babel', function () {
 // 转存js 
 gulp.task('minifyjs',function(){
   gulp.src('./src/js/*.js')
+  .pipe(uglify())
   .pipe(gulp.dest('./dist/js'))
   .pipe(connect.reload())
 })
@@ -66,6 +67,7 @@ gulp.task('watch',function(){
   gulp.watch('./src/*.html',['html'])
   gulp.watch('./src/css/*.less',['less'])
   gulp.watch('./src/css/*.css',['minifyCss'])
+  gulp.watch('./src/css/layout1440.css',['minifyCss'])
   gulp.watch('./src/js/*.js',['minifyjs'])
   gulp.watch('./src/images/**/*',['img'])
   gulp.watch('./src/vendor/**/*',['vendor'])
