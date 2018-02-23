@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>DRC</title>
   <link rel="shortcut icon" href="./images/drcinfo.ico">
-  <link href=".css/font-awesome.css" rel="stylesheet">
+  <link href="./css/font-awesome.css" rel="stylesheet">
   <link rel="stylesheet" href="./css/normalize.css">
   <link rel="stylesheet" href="./css/layout.css">
   <link rel="stylesheet" href="./css/layout1440.css">
@@ -16,21 +16,21 @@
 </head>
 
 <body>
-  <div class="index-banner">
-    <header class="nav-box">
+  <div class="index-banner" id="home">
+    <header class="nav-box" id="navbar">
       <div class="nav-main">
         <div class="top-menubox">
           <img class="drclogo" src="./images/logo.svg" alt="">
-          <ul class="menu-list">
-            <li>首页</li>
-            <li>平台介绍</li>
-            <li>技术特点</li>
-            <li>核心竞争力</li>
-            <li>核心团队</li>
-            <li>DRC动态</li>
-            <li>联盟伙伴</li>
-            <li>联系我们</li>
-            <li>
+          <ul class="menu-list" id="menulist">
+            <li data-href="#home">首页</li>
+            <li data-href="#introduction">平台介绍</li>
+            <li data-href="#tech">技术特点</li>
+            <li data-href="#competence">核心竞争力</li>
+            <li data-href="#team">核心团队</li>
+            <li data-href="#drcinfo">DRC动态</li>
+            <li data-href="#partners">联盟伙伴</li>
+            <li data-href="#connect">联系我们</li>
+            <li data-href="#change">
               <span class="menu-border"></span>EN</li>
           </ul>
         </div>
@@ -53,7 +53,7 @@
     </div>
   </div>
   <div class="wrapper">
-    <div class="drc-video">
+    <div class="drc-video" id="introduction">
       <!-- Modal -->
       <div class="clearfix">
         <div class="modal-lg clearfix" role="document">
@@ -100,7 +100,7 @@
         </ul>
       </div>
     </div>
-    <div class="drc-tech">
+    <div class="drc-tech" id="tech">
       <div class="drc-midbox">
         <ul class="tech-list">
           <li class="dteli">
@@ -146,7 +146,7 @@
       </div>
     </div>
     <!-- 核心竞争力 -->
-    <div class="drc-core">
+    <div class="drc-core" id="competence">
       <div class="drc-midbox">
         <div class="main-title">
           <div class="title">核心竞争力</div>
@@ -186,7 +186,7 @@
       </div>
     </div>
     <!-- 核心团队 -->
-    <div class="drc-team">
+    <div class="drc-team" id="team">
       <div class="drc-midbox">
         <div class="main-title">
           <div class="title">核心团队</div>
@@ -289,7 +289,7 @@
       </div>
     </div>
     <!-- DRC动态 -->
-    <div class="drc-dynamic">
+    <div class="drc-dynamic" id="drcinfo">
       <div class="drc-midbox">
         <div class="main-title">
           <div class="title">DRC动态</div>
@@ -368,7 +368,7 @@
       </div>
     </div>
     <!-- 联盟伙伴 -->
-    <div class="drc-partner">
+    <div class="drc-partner" id="partners">
       <div class="drc-midbox">
         <div class="main-title">
           <div class="title">联盟伙伴</div>
@@ -421,7 +421,7 @@
       </div>
     </div>
   </div>
-  <footer class="footer">
+  <footer class="footer" id="connect">
     <div class="drc-midbox mt-8">
       <ul class="footlist">
         <li class="footlogo">
