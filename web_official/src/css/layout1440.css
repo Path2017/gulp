@@ -215,6 +215,7 @@
     overflow: auto;
     margin-top: -2px;
     background: url(../images/bgc12.png) no-repeat;
+    background-size: 100% 100%;
   }
   /* vedio */
   .modal-lg {
@@ -588,6 +589,11 @@
   .dyna-dtelist .dynapic {
     width: 100%;
     height: 180px;
+  }
+  .dyna-dtelist .dynapic a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
   }
   .dyna-dtelist .dynapic img {
     width: 100%;

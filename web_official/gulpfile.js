@@ -68,6 +68,7 @@ gulp.task('watch',function(){
   gulp.watch('./src/css/*.less',['less'])
   gulp.watch('./src/css/*.css',['minifyCss'])
   gulp.watch('./src/css/layout1440.css',['minifyCss'])
+  gulp.watch('./src/css/layout1600.css',['minifyCss'])
   gulp.watch('./src/js/*.js',['minifyjs'])
   gulp.watch('./src/images/**/*',['img'])
   gulp.watch('./src/vendor/**/*',['vendor'])

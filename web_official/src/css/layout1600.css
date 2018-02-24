@@ -2,12 +2,12 @@
 @media screen and (min-width: 1460px) and (max-width: 1620px) {
   body {
     height: auto;
-    min-width: 1100px;
+    min-width: 1280px;
   }
   /* 顶部导航 */
   .index-banner {
     width: 100%;
-    min-height: 700px;
+    min-height: 500px;
     position: relative;
     background: url(../images/banner.png) no-repeat;
     overflow: auto;
@@ -16,9 +16,9 @@
     z-index: 999;
   }
   .drclogo {
-    height: 60px;
+    height: 40px;
     width: auto;
-    margin-right: 100px;
+    margin-right: 80px;
   }
   .topview .nav-box {
     background-color: #042656;
@@ -33,20 +33,20 @@
     padding: 10px 0;
   }
   .top-menubox {
-    width: 91%;
+    width: 1280px;
     margin: 0 auto;
-    padding: 40px 0;
+    padding: 10px 0;
   }
   .menu-list {
     letter-spacing: -0.5em;
-    line-height: 80px;
+    line-height: 70px;
     display: inline-block;
   }
   .menu-list li {
     display: inline-block;
     letter-spacing: normal;
-    font-size: 18px;
-    margin-right: 35px;
+    font-size: 14px;
+    margin-right: 30px;
     cursor: pointer;
     user-select: none;
     color: #fff;
@@ -58,7 +58,7 @@
     padding-left: 20px;
     border-left: 1px solid #fff;
     display: inline-block;
-    height: 22px;
+    height: 16px;
     vertical-align: middle;
   }
   .nav-main {
@@ -67,14 +67,14 @@
     position: relative;
   }
   .paperbox {
-    width: 150px;
-    height: 36px;
+    width: 110px;
+    height: 28px;
     background-color: #F3B12D;
-    border-top-left-radius: 18px;
-    border-bottom-left-radius: 18px;
+    border-top-left-radius: 14px;
+    border-bottom-left-radius: 14px;
     position: absolute;
     right: 0;
-    top: 62px;
+    top: 32px;
   }
   .topview .paperbox {
     top: 32px;
@@ -85,26 +85,27 @@
   .paperbox .topname {
     color: #fff;
     cursor: default;
-    font-size: 14px;
+    font-size: 10px;
     color: #000;
     text-align: center;
-    line-height: 36px;
-    width: 108px;
+    line-height: 28px;
+    width: 68px;
     cursor: pointer;
   }
   .paperbox .topname a {
     color: #000;
+    font-size: 12px;
   }
   .paperbox .toppic {
-    height: 36px;
-    width: 40px;
+    height: 28px;
+    width: 38px;
     background-color: #fff;
     float: right;
     text-align: center;
-    line-height: 36px;
+    line-height: 28px;
   }
   .paperbox .toppic img {
-    width: 18px;
+    width: 12px;
     vertical-align: middle;
   }
   .drc-slogan {
@@ -119,8 +120,8 @@
     display: inline-block;
     width: 480px;
     text-align: center;
-    font-size: 80px;
-    line-height: 100px;
+    font-size: 60px;
+    line-height: 80px;
   }
   .drc-slogan .top {
     color: #fff;
@@ -136,73 +137,73 @@
     margin-top: -2px;
   }
   .wrapper .drc-video {
-    height: 780px;
+    height: 620px;
     background: url(../images/bgc1.png) no-repeat;
     background-size: 100% 100%;
     margin-left: -2px;
   }
   .wrapper .drc-what {
-    height: 970px;
+    height: 700px;
     background: url(../images/bgc2.png) no-repeat;
     margin-top: -2px;
     background-size: 100% 100%;
   }
   .wrapper .drc-dd {
-    height: 765px;
+    height: 550px;
     background: url(../images/bgc3.png) no-repeat;
     margin-top: -2px;
     background-size: 100% 100%;
   }
   .wrapper .drc-tech {
-    height: 730px;
+    height: 580px;
     background: url(../images/bgc4.png) no-repeat;
     margin-top: -2px;
     background-size: 100% 100%;
   }
   .wrapper .drc-circle {
-    height: 870px;
+    height: 540px;
     background: url(../images/bgc5.png) no-repeat;
     margin-top: -2px;
     margin-left: -2px;
     background-size: 100% 100%;
   }
   .wrapper .drc-use {
-    height: 835px;
+    height: 650px;
     background: url(../images/bgc6.png) no-repeat;
     margin-top: -2px;
     margin-left: -2px;
     background-size: 100% 100%;
   }
   .wrapper .drc-core {
-    height: 990px;
+    height: 690px;
     background: url(../images/bgc7.png) no-repeat;
     margin-top: -2px;
     margin-left: -2px;
     background-size: 100% 100%;
   }
   .wrapper .drc-develop {
-    height: 1020px;
+    height: 720px;
     background: url(../images/bgc8.png) no-repeat;
     margin-top: -2px;
     margin-left: -2px;
     background-size: 100% 100%;
   }
   .wrapper .drc-team {
-    height: 2440px;
+    height: 2050px;
     background: url(../images/bgc9.png) no-repeat;
     margin-top: -2px;
     margin-left: -2px;
     background-size: 100% 100%;
   }
   .wrapper .drc-dynamic {
-    height: 1505px;
+    height: 1205px;
     background: url(../images/bgc10.png) no-repeat;
     margin-top: -2px;
     margin-left: -2px;
     background-size: 100% 100%;
   }
   .wrapper .drc-partner {
-    height: 655px;
+    height: 500px;
     background: url(../images/bgc11.png) no-repeat;
     margin-top: -2px;
     margin-left: -2px;
@@ -210,15 +211,16 @@
   }
   .footer {
     width: 100%;
-    height: 430px;
+    height: 240px;
     overflow: auto;
     margin-top: -2px;
     background: url(../images/bgc12.png) no-repeat;
+    background-size: 100% 100%;
   }
   /* vedio */
   .modal-lg {
-    width: 870px;
-    margin: 145px auto 0;
+    width: 680px;
+    margin: 100px auto 0;
   }
   .modal-content {
     position: relative;
@@ -251,11 +253,11 @@
     border-radius: 6px;
     background-color: #fff;
     float: left;
-    height: 500px;
+    height: 400px;
   }
   /* drc introduce */
   .drc-midbox {
-    width: 1420px;
+    width: 1280px;
     margin: 0 auto;
     min-height: 100px;
     overflow: auto;
@@ -270,32 +272,32 @@
     vertical-align: top;
   }
   .what-list .whatpic {
-    width: 830px;
-    margin-top: 80px;
+    width: 630px;
+    margin-top: 30px;
   }
   .what-list .dteli {
-    width: 480px;
+    width: 460px;
     min-height: 100px;
-    margin-top: 260px;
+    margin-top: 120px;
   }
   .what-list .imgli {
-    width: 900px;
+    width: 820px;
     text-align: right;
   }
   .dteli .topname {
     color: #fff;
-    font-size: 32px;
-    width: 480px;
+    font-size: 22px;
+    width: 460px;
     border-bottom: 1px solid #996f1b;
-    height: 74px;
-    line-height: 74px;
+    height: 60px;
+    line-height: 60px;
   }
   .dteli .mesdte {
-    font-size: 18px;
+    font-size: 16px;
     color: #fff;
     line-height: 2;
     text-align: justify;
-    margin-top: 34px;
+    margin-top: 30px;
   }
   .dd-list {
     width: 100%;
@@ -307,30 +309,30 @@
     vertical-align: top;
   }
   .dd-list .ddimgli {
-    width: 790px;
+    width: 680px;
     text-align: center;
-    margin-top: 160px;
+    margin-top: 85px;
   }
   .dd-list .ddpic {
-    width: 648px;
+    width: 448px;
   }
   .ddmain {
-    margin-top: 125px;
+    margin-top: 115px;
     width: 600px;
   }
   .ddmain .dd-topname {
     width: 600px;
     border-bottom: 1px solid #996f1b;
-    height: 74px;
-    line-height: 74px;
-    font-size: 32px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 22px;
     color: #fff;
   }
   .ddmain .dd-dte {
     color: #fff;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 2;
-    margin-top: 34px;
+    margin-top: 30px;
     text-align: justify;
   }
   .tech-list {
@@ -343,16 +345,16 @@
     vertical-align: top;
   }
   .tech-list .techpic {
-    width: 830px;
+    width: 640px;
     margin-top: 80px;
   }
   .tech-list .dteli {
-    width: 480px;
+    width: 460px;
     min-height: 100px;
-    margin-top: 140px;
+    margin-top: 100px;
   }
   .tech-list .imgli {
-    width: 900px;
+    width: 820px;
     text-align: right;
   }
   .circle-list {
@@ -365,15 +367,15 @@
     vertical-align: top;
   }
   .circle-list .circleimgli {
-    width: 790px;
+    width: 680px;
     text-align: center;
-    margin-top: 160px;
+    margin-top: 100px;
   }
   .circle-list .circlepic {
-    width: 595px;
+    width: 360px;
   }
   .circlemain {
-    margin-top: 215px;
+    margin-top: 85px;
     width: 600px;
   }
   .circlemain .circleline {
@@ -392,9 +394,9 @@
   }
   .circlemain .circle-dte {
     color: #fff;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 2;
-    margin-top: 34px;
+    margin-top: 30px;
     text-align: justify;
   }
   .use-list {
@@ -406,40 +408,40 @@
     display: inline-block;
   }
   .use-list .dtelist {
-    width: 390px;
+    width: 400px;
     color: #fff;
     line-height: 2;
-    font-size: 18px;
+    font-size: 16px;
     text-align: justify;
     vertical-align: middle;
   }
   .use-list .usepic {
-    width: 1015px;
-    line-height: 835px;
+    width: 880px;
+    line-height: 600px;
+    text-align: right;
   }
   .use-list .usepic img {
-    width: 1010px;
-    text-align: right;
+    width: 800px;
     vertical-align: middle;
   }
   /* title */
   .main-title {
     width: 100%;
-    margin-top: 140px;
-    height: 73px;
+    margin-top: 80px;
+    height: 62px;
     text-align: center;
     overflow: hidden;
   }
   .main-title .title {
-    font-size: 32px;
+    font-size: 26px;
     text-align: center;
     color: #fff;
-    line-height: 70px;
+    line-height: 60px;
     letter-spacing: 1px;
   }
   .main-title .btoline {
     display: inline-block;
-    width: 124px;
+    width: 100px;
     height: 1px;
     background-color: #ebac2b;
     vertical-align: top;
@@ -448,41 +450,41 @@
   }
   .corelist {
     letter-spacing: -0.5em;
-    width: 1340px;
+    width: 1200px;
     margin: 0 auto;
   }
   .corelist li {
     letter-spacing: normal;
     display: inline-block;
-    width: 380px;
-    margin: 90px 25px 0;
+    width: 340px;
+    margin: 70px 20px 0;
     text-align: center;
     vertical-align: top;
   }
   .corelist li .core-icon {
-    width: 155px;
+    width: 110px;
     vertical-align: top;
   }
   .corelist li .midtitle {
     color: #f4b12c;
-    font-size: 20px;
-    margin-top: 50px;
-    line-height: 70px;
+    font-size: 16px;
+    margin-top: 30px;
+    line-height: 60px;
   }
   .corelist li .detail {
     color: #fff;
-    line-height: 38px;
-    font-size: 18px;
+    line-height: 2;
+    font-size: 16px;
   }
   .drc-develop .develop-pic {
     width: 100%;
-    height: 570px;
+    min-height: 400px;
     text-align: center;
-    margin-top: 80px;
+    margin-top: 70px;
   }
   .drc-develop .develop-pic img {
     width: 100%;
-    max-height: 560px;
+    max-height: 400px;
   }
   .team-main {
     width: 100%;
@@ -490,7 +492,7 @@
     overflow: auto;
   }
   .team-main .title {
-    font-size: 24px;
+    font-size: 22px;
     text-align: center;
     color: #fff;
     margin-top: 35px;
@@ -508,23 +510,23 @@
     display: inline-block;
     vertical-align: top;
     text-align: center;
-    margin-top: 60px;
+    margin-top: 50px;
     /* min-height: 480px; */
   }
   .teamlist li img {
-    width: 200px;
-    height: 200px;
+    width: 140px;
+    height: 140px;
   }
   .teamlist li .name {
     color: #fff;
-    font-size: 18px;
-    margin-top: 20px;
-    line-height: 32px;
+    font-size: 16px;
+    margin-top: 15px;
+    line-height: 2;
   }
   .teamlist li .position {
     font-size: 16px;
     line-height: 24px;
-    margin-bottom: 20px;
+    height: 46px;
   }
   .teamlist li .teamer-color {
     color: #f4b12e;
@@ -542,24 +544,24 @@
   }
   /* DRC */
   .dynalist {
-    width: 1400px;
-    margin: 60px auto 0;
+    width: 1200px;
+    margin: 50px auto 0;
     min-height: 300px;
   }
   .dynalist .midtitle {
     width: 100%;
-    height: 2px;
+    height: 1px;
     background-color: #f4b12e;
     position: relative;
   }
   .dynalist .mid-dtename {
     position: absolute;
-    width: 225px;
+    width: 180px;
     height: 50px;
     line-height: 50px;
     color: #f4b12e;
     background-color: #141414;
-    font-size: 30px;
+    font-size: 24px;
     left: 0;
     top: -25px;
   }
@@ -572,19 +574,24 @@
   .dyna-dtelist li {
     display: inline-block;
     letter-spacing: normal;
-    width: 420px;
-    height: 430px;
-    padding: 15px;
+    width: 360px;
+    height: 380px;
+    padding: 10px;
     background-color: #32323c;
     vertical-align: top;
-    margin-right: 20px;
+    margin-right: 28px;
   }
   .dyna-dtelist li:nth-of-type(3n) {
     margin-right: 0;
   }
   .dyna-dtelist .dynapic {
     width: 100%;
-    height: 250px;
+    height: 210px;
+  }
+  .dyna-dtelist .dynapic a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
   }
   .dyna-dtelist .dynapic img {
     width: 100%;
@@ -592,10 +599,10 @@
   }
   .dyna-dtelist .dynadte {
     color: #fff;
-    font-size: 18px;
-    line-height: 36px;
-    height: 108px;
-    margin-top: 30px;
+    font-size: 16px;
+    line-height: 2;
+    height: 96px;
+    margin-top: 25px;
     overflow: hidden;
     word-break: break-all;
     white-space: normal;
@@ -605,14 +612,14 @@
   }
   .dyna-dtelist .dynatime {
     color: #fff;
-    font-size: 18px;
-    line-height: 36px;
+    font-size: 16px;
+    line-height: 2;
     margin-top: 5px;
   }
   .partnerlist {
     letter-spacing: -0.5em;
     width: 90%;
-    margin: 50px auto;
+    margin: 30px auto;
   }
   .partnerlist li {
     display: inline-block;
@@ -633,7 +640,7 @@
     letter-spacing: -0.5em;
     width: 100%;
     overflow: auto;
-    height: 250px;
+    height: 150px;
   }
   .footlist li {
     letter-spacing: normal;
@@ -642,91 +649,91 @@
     vertical-align: top;
   }
   .footlist .footlogo {
-    width: 350px;
+    width: 300px;
     text-align: left;
   }
   .footlist .footlogo img {
-    height: 70px;
-    width: 165px;
+    height: 40px;
+    width: 96px;
     vertical-align: top;
   }
   .footer .mt-8 {
-    margin-top: 80px;
+    margin-top: 50px;
   }
   .footlist .whitepaper {
-    width: 230px;
+    width: 180px;
   }
   .footlist .whitepaper .name {
-    font-size: 18px;
+    font-size: 16px;
     color: #dd9b2d;
-    line-height: 36px;
+    line-height: 2;
     cursor: pointer;
   }
   .footlist .whitepaper .whiteline {
-    width: 110px;
+    width: 90px;
     height: 1px;
     background-color: #dd9b2d;
   }
   .footlist .source {
-    width: 290px;
+    width: 200px;
   }
   .footlist .source .name {
-    font-size: 18px;
+    font-size: 16px;
     color: #fff;
-    line-height: 36px;
+    line-height: 2;
     cursor: pointer;
   }
   .footlist .source .addtion {
-    font-size: 18px;
+    font-size: 16px;
     color: #fff;
-    margin-top: 50px;
-    line-height: 36px;
+    margin-top: 25px;
+    line-height: 2;
     cursor: pointer;
   }
   .footlist .source div span:hover {
     color: #dd9b2d;
   }
   .footlist .chat {
-    width: 230px;
+    width: 240px;
     cursor: default;
   }
   .footlist .chat .name {
-    font-size: 18px;
+    font-size: 16px;
     color: #fff;
-    line-height: 36px;
+    line-height: 2;
   }
   .footlist .chat .addtion {
-    font-size: 18px;
+    font-size: 16px;
     color: #fff;
-    margin-top: 50px;
-    line-height: 36px;
+    margin-top: 25px;
+    line-height: 2;
   }
   .footlist .chat .addtion span {
-    margin-right: 30px;
+    margin-right: 20px;
   }
   .footlist .chat .addtion i {
     margin-right: 10px;
   }
   .footlist .chat .web {
-    font-size: 18px;
+    font-size: 16px;
     color: #fff;
-    margin-top: 50px;
-    line-height: 36px;
+    margin-top: 25px;
+    line-height: 2;
   }
   .footlist .link {
-    width: 318px;
+    width: 310px;
   }
   .footlist .link .name {
-    font-size: 18px;
+    font-size: 16px;
     color: #fff;
-    line-height: 36px;
+    line-height: 2;
     cursor: default;
   }
   .footlist .link .addtion {
-    font-size: 18px;
+    font-size: 16px;
     color: #fff;
-    margin-top: 50px;
-    line-height: 36px;
+    margin-top: 25px;
+    line-height: 2;
   }
   .footlist .link .addtion span {
     margin-right: 15px;
