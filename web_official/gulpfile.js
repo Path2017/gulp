@@ -11,6 +11,8 @@ var rename = require('gulp-rename');
 var babel = require('gulp-babel');
 // 压缩js
 var uglify = require('gulp-uglify');
+// 压缩图片
+var imagemin = require('gulp-imagemin');
 // 启动本地服务器
 var connect = require('gulp-connect');
 
@@ -53,6 +55,7 @@ gulp.task('html',function(){
 // 转存img
 gulp.task('img',function(){
   gulp.src('./src/images/**/*')
+  .pipe(imagemin())
   .pipe(gulp.dest('./dist/images'))
   .pipe(connect.reload())
 })
@@ -67,6 +70,7 @@ gulp.task('watch',function(){
   gulp.watch('./src/*.html',['html'])
   gulp.watch('./src/css/*.less',['less'])
   gulp.watch('./src/css/*.css',['minifyCss'])
+  gulp.watch('./src/css/layouten.css',['minifyCss'])
   gulp.watch('./src/css/layout1440.css',['minifyCss'])
   gulp.watch('./src/css/layout1600.css',['minifyCss'])
   gulp.watch('./src/js/*.js',['minifyjs'])

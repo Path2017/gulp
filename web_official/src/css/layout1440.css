@@ -9,11 +9,14 @@
     width: 100%;
     min-height: 500px;
     position: relative;
-    background: url(../images/banner.png) no-repeat;
+    /* background: url(../images/banner.png) no-repeat; */
     overflow: auto;
     background-size: 100% 100%;
     margin-top: -2px;
     z-index: 999;
+  }
+  .topbanner {
+    width: 100%;
   }
   .drclogo {
     height: 30px;
@@ -28,6 +31,7 @@
     position: fixed;
     top: 0;
     height: auto;
+    z-index: 999;
   }
   .topview .top-menubox {
     padding: 0;
@@ -112,6 +116,9 @@
     width: 1100px;
     margin: 0 auto;
     overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
   }
   .drc-slogan .drc-name {
     text-align: right;
