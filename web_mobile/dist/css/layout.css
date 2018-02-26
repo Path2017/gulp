@@ -1,0 +1,504 @@
+@charset "UTF-8";
+body,
+html {
+  font-family: 'PingFang SC', 'Microsoft Yahei', Arial;
+}
+.banner {
+  width: 100%;
+  min-height: 20rem;
+  position: relative;
+}
+.banner .banner-img {
+  width: 100%;
+}
+.banner .menulist {
+  width: 100%;
+  height: 4rem;
+  line-height: 4rem;
+  padding: 1.5rem 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+.banner .menulist .mid-center {
+  width: 88%;
+  height: 4rem;
+  margin: 0 auto;
+}
+.banner .menulist .mid-center .logo {
+  height: 2.2rem;
+  margin-top: 0.9rem;
+  float: left;
+}
+.banner .menulist .mid-center .more {
+  height: 1.5rem;
+  float: right;
+  margin-top: 1.2rem;
+}
+.banner .viewscroll {
+  background-color: #042656;
+  padding: 0;
+}
+.menubox {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  top: 0;
+  z-index: 999;
+}
+.menubox .menulist {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-top: 4rem;
+  text-align: center;
+}
+.menubox .menulist li {
+  line-height: 3;
+}
+.menubox .menulist li a {
+  color: #fff;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.menubox .menuclose {
+  margin: 3rem auto 0;
+  font-size: 1.2rem;
+  color: #fff;
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 0.05rem solid #fff;
+  border-radius: 3rem;
+  text-align: center;
+  line-height: 2.2rem;
+}
+.menubox .menuclose i {
+  vertical-align: middle;
+}
+.wrapper {
+  width: 100%;
+  height: auto;
+}
+.wrapper .vedio-box {
+  width: 100%;
+  height: 26.3rem;
+  margin-top: -0.2rem;
+  background: url(../images/bgc1.png) no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+.wrapper .vedio-box .vedio-content {
+  width: 88%;
+  margin: 4rem auto 0;
+}
+.wrapper .vedio-box .vedio-content video::-internal-media-controls-download-button {
+  display: none;
+}
+.wrapper .vedio-box .vedio-content video::-webkit-media-controls-enclosure {
+  overflow: hidden;
+}
+.wrapper .vedio-box .vedio-content video::-webkit-media-controls-panel {
+  width: calc(130%);
+}
+.wrapper .drc-what {
+  width: 100%;
+  min-height: 10rem;
+  margin-top: -0.3rem;
+  background: url(../images/bgc1.png) no-repeat;
+  background-size: 100% 100%;
+  overflow: auto;
+  padding-bottom: 2.5rem;
+}
+.wrapper .drc-dd {
+  width: 100%;
+  min-height: 10rem;
+  margin-top: -0.2rem;
+  background: url(../images/bgc2.png) no-repeat;
+  background-size: 100% 100%;
+  overflow: auto;
+  padding-bottom: 2.5rem;
+}
+.wrapper .drc-tech {
+  width: 100%;
+  min-height: 10rem;
+  margin-top: -0.2rem;
+  background: url(../images/bgc3.png) no-repeat;
+  background-size: 100% 100%;
+  overflow: auto;
+  padding-bottom: 2.5rem;
+}
+.wrapper .drc-investor {
+  width: 100%;
+  min-height: 10rem;
+  margin-top: -0.2rem;
+  background: url(../images/bgc4.png) no-repeat;
+  background-size: 100% 100%;
+  overflow: auto;
+  padding-bottom: 2.5rem;
+}
+.wrapper .drc-finance {
+  width: 100%;
+  min-height: 10rem;
+  margin-top: -0.2rem;
+  background: url(../images/bgc5.png) no-repeat;
+  background-size: 100% 100%;
+  overflow: auto;
+  padding-bottom: 2.5rem;
+}
+.wrapper .drc-core {
+  width: 100%;
+  min-height: 10rem;
+  margin-top: -0.2rem;
+  background: url(../images/bgc6.png) no-repeat;
+  background-size: 100% 100%;
+  overflow: auto;
+  padding-bottom: 2.5rem;
+}
+.wrapper .drc-core .core-list {
+  width: 100%;
+  margin-top: 4rem;
+}
+.wrapper .drc-core .core-list .img {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.wrapper .drc-core .core-list .img img {
+  width: 25%;
+}
+.wrapper .drc-core .core-list .core-name {
+  color: #f5b031;
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 3;
+}
+.wrapper .drc-core .core-list .core-dte {
+  width: 70%;
+  text-align: center;
+  color: #fff;
+  margin: 0 auto;
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+.wrapper .drc-develop {
+  width: 100%;
+  min-height: 10rem;
+  margin-top: -0.2rem;
+  background: url(../images/bgc6.png) no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+  padding-bottom: 2.5rem;
+}
+.wrapper .drc-team {
+  width: 100%;
+  min-height: 10rem;
+  margin-top: -1.2rem;
+  background: url(../images/bgc7.png) no-repeat;
+  background-size: 100% 100%;
+  overflow: auto;
+  padding-bottom: 2.5rem;
+}
+.wrapper .drc-team .team-name {
+  color: #fff;
+  font-size: 1.4rem;
+  text-align: center;
+  line-height: 1.8;
+  margin-top: 2.5rem;
+}
+.wrapper .drc-team .teamlist {
+  width: 100%;
+  height: auto;
+  overflow: auto;
+  letter-spacing: -0.5em;
+}
+.wrapper .drc-team .teamlist li {
+  display: inline-block;
+  letter-spacing: normal;
+  vertical-align: top;
+  width: 44%;
+  margin: 3rem 3% 0;
+}
+.wrapper .drc-team .teamlist li .imgbox {
+  width: 100%;
+  text-align: center;
+}
+.wrapper .drc-team .teamlist li .imgbox img {
+  width: 60%;
+}
+.wrapper .drc-team .teamlist li .name {
+  color: #fff;
+  text-align: center;
+  line-height: 2;
+  margin-top: 1rem;
+  font-size: 1.3rem;
+}
+.wrapper .drc-team .teamlist li .teamtitle {
+  color: #f5b031;
+  font-size: 1.2rem;
+  line-height: 1.2;
+  margin-top: 0;
+  text-align: center;
+  min-height: 3rem;
+}
+.wrapper .drc-team .teamlist li .teamdte {
+  color: #fff;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  text-align: justify;
+}
+.wrapper .drc-team .teamlist li .advisertitle {
+  color: #00C3FF;
+  font-size: 1.2rem;
+  line-height: 1.2;
+  margin-top: 0;
+  text-align: center;
+  min-height: 3rem;
+}
+.wrapper .drc-team .teamlist li .adviserdte {
+  color: #fff;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  text-align: center;
+}
+.wrapper .drc-info {
+  width: 100%;
+  min-height: 10rem;
+  margin-top: -1.2rem;
+  background: url(../images/bgc7.png) no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+  padding-bottom: 2.5rem;
+}
+.wrapper .drc-info .infobox {
+  width: 100%;
+  height: auto;
+}
+.wrapper .drc-info .infobox .infoname {
+  position: relative;
+  width: 90%;
+  margin: 3rem auto 0;
+  height: 0.1rem;
+  background-color: #f5b031;
+}
+.wrapper .drc-info .infobox .infoname .infotitle {
+  position: absolute;
+  width: 33%;
+  background-color: #000;
+  height: 2rem;
+  top: -1rem;
+  left: 0;
+  color: #f5b031;
+  line-height: 2rem;
+  font-size: 1.4rem;
+}
+.wrapper .drc-info .infobox .infolist {
+  width: 90%;
+  letter-spacing: -0.5em;
+  margin: 0 auto;
+}
+.wrapper .drc-info .infobox .infolist li {
+  letter-spacing: normal;
+  display: inline-block;
+  width: 100%;
+  background-color: #32323c;
+  min-height: 12rem;
+  margin-top: 1.5rem;
+  padding-bottom: 1rem;
+}
+.wrapper .drc-info .infobox .infolist li .infoimg {
+  width: 100%;
+  text-align: center;
+}
+.wrapper .drc-info .infobox .infolist li .infoimg img {
+  width: 94%;
+  height: 14rem;
+  margin-top: 0.8rem;
+}
+.wrapper .drc-info .infobox .infolist li .infodte {
+  color: #fff;
+  font-size: 1.3rem;
+  line-height: 1.8;
+  width: 94%;
+  margin: 0 auto;
+  margin: 1.5rem auto 0;
+  overflow: hidden;
+  word-break: break-all;
+  white-space: normal;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+.wrapper .drc-info .infobox .infolist li .infotime {
+  color: #fff;
+  line-height: 2;
+  width: 94%;
+  margin: 0.5rem auto 0;
+  font-size: 1.3rem;
+}
+.wrapper .drc-partners {
+  width: 100%;
+  min-height: 10rem;
+  margin-top: -0.2rem;
+  background: url(../images/bgc9.png) no-repeat;
+  background-size: 100% 100%;
+  overflow: auto;
+  padding-bottom: 2.5rem;
+}
+.wrapper .drc-partners .partlist {
+  width: 100%;
+  letter-spacing: -0.5em;
+  text-align: center;
+  margin-top: 2rem;
+}
+.wrapper .drc-partners .partlist li {
+  display: inline-block;
+  letter-spacing: normal;
+  width: 40%;
+  text-align: center;
+  line-height: 3.5rem;
+  height: 3.5rem;
+  margin: 1rem 0;
+}
+.wrapper .drc-partners .partlist li img {
+  max-width: 80%;
+  max-height: 3.5rem;
+  vertical-align: middle;
+}
+.mid-center {
+  width: 88%;
+  height: auto;
+  margin: 0 auto;
+}
+.mid-center .title {
+  width: 100%;
+  color: #fff;
+  font-size: 1.7rem;
+  line-height: 2;
+  margin-top: 2.5rem;
+}
+.mid-center .title-border {
+  width: 100%;
+  height: 0.1rem;
+  background: #f5b031;
+}
+.mid-center .mt-line {
+  margin-top: 1.8rem;
+}
+.mid-center .dte {
+  color: #fff;
+  font-size: 1.3rem;
+  text-align: justify;
+  line-height: 1.5;
+  margin-top: 1.8rem;
+}
+.mid-center .dteimg {
+  width: 100%;
+  margin-top: 3rem;
+}
+.mid-center .main-name {
+  color: #fff;
+  font-size: 1.7rem;
+  text-align: center;
+  line-height: 2;
+  margin-top: 2.5rem;
+}
+.mid-center .name-border {
+  width: 6.2rem;
+  height: 0.1rem;
+  background-color: #f5b031;
+  margin: 0 auto;
+}
+.mt-3 {
+  margin-top: 3rem!important;
+}
+.footer {
+  width: 100%;
+  min-height: 10rem;
+  background-color: #000;
+  margin-top: -0.1rem;
+}
+.footer .foot-content {
+  width: 88%;
+  min-height: 10rem;
+  margin: 0 auto;
+  overflow: auto;
+}
+.footer .foot-content .toplink {
+  width: 100%;
+  color: #fff;
+  font-size: 1.3rem;
+  height: 3rem;
+  margin-top: 3rem;
+}
+.footer .foot-content .toplink .whitepaper {
+  color: #f5b031;
+  border-bottom: 0.1rem solid #f5b031;
+  width: 6.6rem;
+  line-height: 2;
+  float: left;
+}
+.footer .foot-content .toplink img {
+  height: 3rem;
+  float: right;
+}
+.footer .foot-content .midcheck {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin-top: 2rem;
+}
+.footer .foot-content .midcheck .midleft {
+  width: 42%;
+  float: left;
+  min-height: 10rem;
+}
+.footer .foot-content .midcheck .midleft .btoname {
+  color: #fff;
+  line-height: 2;
+  font-size: 1.3rem;
+}
+.footer .foot-content .midcheck .midleft .item {
+  color: #99999a;
+  font-size: 1.3rem;
+  line-height: 2;
+  margin-bottom: 2rem;
+}
+.footer .foot-content .midcheck .midleft .btolink {
+  line-height: 2;
+  color: #99999a;
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+}
+.footer .foot-content .midcheck .midleft .btolink span {
+  display: inline-block;
+  margin-right: 1rem;
+}
+.footer .foot-content .midcheck .midleft .btolink span i {
+  margin-right: 0.5rem;
+}
+.footer .foot-content .midcheck .midright {
+  width: 50%;
+  float: left;
+}
+.footer .foot-content .midcheck .midright .btoname {
+  color: #fff;
+  line-height: 2;
+  font-size: 1.3rem;
+}
+.footer .foot-content .midcheck .midright .linklist {
+  width: 100%;
+}
+.footer .foot-content .midcheck .midright .linklist li {
+  display: inline-block;
+  font-size: 1.4rem;
+  color: #99999a;
+  margin-right: 1.5rem;
+  line-height: 2;
+}
+.footer .copyright {
+  font-size: 1.1rem;
+  color: #fff;
+  padding-bottom: 2rem;
+}

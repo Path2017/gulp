@@ -20,14 +20,14 @@ var connect = require('gulp-connect');
 gulp.task('less', function () {
   gulp.src('./src/css/*.less')
     .pipe(less())
-    .pipe(minifyCSS())
+    // .pipe(minifyCSS())
     .pipe(gulp.dest(config.css.dest))
     .pipe(connect.reload())
 })
 // 压缩css
 gulp.task('minifyCss', function () {
   gulp.src('./src/css/*.css')
-    .pipe(minifyCSS())
+    // .pipe(minifyCSS())
     .pipe(gulp.dest(config.css.dest))
     .pipe(connect.reload())
 })
@@ -71,9 +71,8 @@ gulp.task('watch',function(){
   gulp.watch('./src/css/*.less',['less'])
   gulp.watch('./src/css/*.css',['minifyCss'])
   gulp.watch('./src/css/layouten.css',['minifyCss'])
-  gulp.watch('./src/css/layout1440.css',['minifyCss'])
-  gulp.watch('./src/css/layout1600.css',['minifyCss'])
   gulp.watch('./src/js/*.js',['minifyjs'])
+  gulp.watch('./src/js/index.js',['minifyjs'])
   gulp.watch('./src/images/**/*',['img'])
   gulp.watch('./src/vendor/**/*',['vendor'])
 })
