@@ -1,29 +1,24 @@
-'use strict'
-$(function () {
-  // the banner's height should filled one screen
-  // $('.index-banner').height(window.innerHeight)
-  // $('.drc-slogan').height(window.innerHeight)
+'use strict';
+
+$(function(){
+  // menu
   window.onscroll = function () {
-    $('.index-banner').addClass('topview')
+    $('.menulist').addClass('viewscroll')
     if ($(window).scrollTop() <= 1) {
-      $('.index-banner').removeClass('topview')
+      $('.menulist').removeClass('viewscroll')
     }
   }
   // get the window scroll height
   var nowscrollHeight = $(window).scrollTop();
   if (nowscrollHeight >= 10) {
-    $('.index-banner').addClass('topview')
+    $('.menulist').addClass('topview')
   } else {
-    $('.index-banner').removeClass('topview')
+    $('.menulist').removeClass('topview')
   }
-  // vedio
-  document.getElementById('drc-video').playbackRate = 1;
-  $('#mp4-close').on('click', function () {
-    document.getElementById('drc-video').load();
-  });
-  // menu link
-  var navbarHeight = $('#navbar').height();
-  var paddingHeight = parseInt($('.top-menubox').css('padding-top')) + parseInt($('.top-menubox').css('padding-bottom'));
+  $('#moreMenu').click(function(){
+    $('#menubox').fadeIn(500)
+  })
+  var navbarHeight = $('#navbar').height()
   $('#menulist').children('li').click(function () {
     var queryId = $(this).data('href');
     if (queryId == '#change') {
@@ -33,8 +28,11 @@ $(function () {
     }
     var $el = document.querySelector(queryId);
     $("html,body").stop().animate({
-      scrollTop: $el.offsetTop - navbarHeight + paddingHeight
+      scrollTop: $el.offsetTop - navbarHeight
     }, 600)
+    $('#menubox').fadeOut(500)
+  })
+  $('#btnclose').click(function(){
+    $('#menubox').fadeOut(500)
   })
 })
-
