@@ -30,9 +30,21 @@ $(function(){
     $("html,body").stop().animate({
       scrollTop: $el.offsetTop - navbarHeight
     }, 600)
-    $('#menubox').fadeOut(500)
+    $('#menubox').fadeOut(300)
   })
   $('#btnclose').click(function(){
-    $('#menubox').fadeOut(500)
+    $('#menubox').fadeOut(300)
+  })
+  // whitepaper cn
+  $('.whitepaperCn').click(function(){
+    window.open('./files/DRC_whitepaper_cn.pdf')
+  })
+  // whitepaper en
+  $('.whitepaperEn').click(function(){
+    window.open('./files/DRC_whitepaper_en.pdf')
+  })
+  // terms
+  $('#terms').click(function(){
+    window.open('./files/Terms_and_Conditions.pdf')
   })
 })

@@ -73,7 +73,7 @@ gulp.task('watch',function(){
   gulp.watch('./src/css/layouten.css',['minifyCss'])
   gulp.watch('./src/js/*.js',['minifyjs'])
   gulp.watch('./src/js/index.js',['minifyjs'])
-  gulp.watch('./src/images/**/*',['img'])
+  // gulp.watch('./src/images/**/*',['img'])
   gulp.watch('./src/vendor/**/*',['vendor'])
 })
 // 开启本地服务器

@@ -1,24 +1,29 @@
-'use strict';
-
-$(function(){
-  // menu
+'use strict'
+$(function () {
+  // the banner's height should filled one screen
+  // $('.index-banner').height(window.innerHeight)
+  // $('.drc-slogan').height(window.innerHeight)
   window.onscroll = function () {
-    $('.menulist').addClass('viewscroll')
+    $('.index-banner').addClass('topview')
     if ($(window).scrollTop() <= 1) {
-      $('.menulist').removeClass('viewscroll')
+      $('.index-banner').removeClass('topview')
     }
   }
   // get the window scroll height
   var nowscrollHeight = $(window).scrollTop();
   if (nowscrollHeight >= 10) {
-    $('.menulist').addClass('topview')
+    $('.index-banner').addClass('topview')
   } else {
-    $('.menulist').removeClass('topview')
+    $('.index-banner').removeClass('topview')
   }
-  $('#moreMenu').click(function(){
-    $('#menubox').fadeIn(500)
-  })
-  var navbarHeight = $('#navbar').height()
+  // vedio
+  document.getElementById('drc-video').playbackRate = 1;
+  $('#mp4-close').on('click', function () {
+    document.getElementById('drc-video').load();
+  });
+  // menu link
+  var navbarHeight = $('#navbar').height();
+  var paddingHeight = parseInt($('.top-menubox').css('padding-top')) + parseInt($('.top-menubox').css('padding-bottom'));
   $('#menulist').children('li').click(function () {
     var queryId = $(this).data('href');
     if (queryId == '#change') {
@@ -28,11 +33,20 @@ $(function(){
     }
     var $el = document.querySelector(queryId);
     $("html,body").stop().animate({
-      scrollTop: $el.offsetTop - navbarHeight
+      scrollTop: $el.offsetTop - navbarHeight + paddingHeight
     }, 600)
-    $('#menubox').fadeOut(500)
   })
-  $('#btnclose').click(function(){
-    $('#menubox').fadeOut(500)
+  // whitepaper en
+  $('.whitepaperEn').click(function(){
+    window.open('./files/DRC_whitepaper_en.pdf');
+  })
+  // whitepaper cn
+  $('.whitepaperCn').click(function(){
+    window.open('./files/DRC_whitepaper_cn.pdf');
+  })
+  // terms
+  $('#terms').click(function(){
+    window.open('./files/Terms_and_Conditions.pdf');
   })
 })
+

@@ -98,7 +98,7 @@ html,body {
   .paperbox .topname {
     color: #fff;
     cursor: default;
-    font-size: 12px;
+    font-size: 10px;
     color: #000;
     text-align: center;
     line-height: 22px;
@@ -129,6 +129,7 @@ html,body {
     position: absolute;
     top: 0;
     left: 0;
+    display: none;
   }
   .drc-slogan .drc-name {
     text-align: right;
@@ -158,6 +159,9 @@ html,body {
     background: url(../images/bgc1.png) no-repeat;
     background-size: 100% 100%;
     margin-left: -2px;
+  }
+  .wrapper .drc-video video::-webkit-media-controls-panel {
+    width: calc(100% + 30px); 
   }
   .wrapper .drc-what {
     height: 570px;
@@ -734,6 +738,9 @@ html,body {
   .footlist .chat .addtion span {
     margin-right: 30px;
   }
+  .footlist .chat .addtion span a {
+    color: #fff;
+  }
   .footlist .chat .addtion i {
     margin-right: 5px;
   }
@@ -761,6 +768,9 @@ html,body {
   .footlist .link .addtion span {
     margin-right: 10px;
     cursor: pointer;
+  }
+  .footlist .link .addtion span a {
+    color: #fff;
   }
   .web-right {
     font-size: 10px;
@@ -924,6 +934,9 @@ html,body {
     background: url(../images/bgc1.png) no-repeat;
     background-size: 100% 100%;
     margin-left: -2px;
+  }
+  .wrapper .drc-video video::-webkit-media-controls-panel {
+    width: calc(100% + 30px); 
   }
   .wrapper .drc-what {
     height: 700px;
@@ -1495,6 +1508,9 @@ html,body {
   .footlist .chat .addtion span {
     margin-right: 20px;
   }
+  .footlist .chat .addtion span a {
+    color: #fff;
+  }
   .footlist .chat .addtion i {
     margin-right: 10px;
   }
@@ -1522,6 +1538,9 @@ html,body {
   .footlist .link .addtion span {
     margin-right: 15px;
     cursor: pointer;
+  }
+  .footlist .link .addtion span a {
+    color: #fff;
   }
   .web-right {
     font-size: 10px;
@@ -1682,6 +1701,9 @@ html,body {
     background: url(../images/bgc1.png) no-repeat;
     background-size: 100% 100%;
     margin-left: -2px;
+  }
+  .wrapper .drc-video video::-webkit-media-controls-panel {
+    width: calc(100% + 3rem); 
   }
   .wrapper .drc-what {
     height: 970px;
@@ -2253,6 +2275,9 @@ html,body {
   .footlist .chat .addtion span {
     margin-right: 30px;
   }
+  .footlist .chat .addtion span a {
+    color: #fff;
+  }
   .footlist .chat .addtion i {
     margin-right: 10px;
   }
@@ -2280,6 +2305,9 @@ html,body {
   .footlist .link .addtion span {
     margin-right: 15px;
     cursor: pointer;
+  }
+  .footlist .link .addtion span a {
+    color: #fff;
   }
   .web-right {
     font-size: 10px;
