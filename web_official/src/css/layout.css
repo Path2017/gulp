@@ -666,7 +666,6 @@ html,body {
   .footlist {
     letter-spacing: -0.5em;
     width: 100%;
-    overflow: auto;
     height: 130px;
   }
   .footlist li {
@@ -708,7 +707,7 @@ html,body {
     font-size: 14px;
     color: #fff;
     line-height: 2;
-    cursor: pointer;
+    cursor: default;
   }
   .footlist .source .addtion {
     font-size: 14px;
@@ -717,7 +716,7 @@ html,body {
     line-height: 2;
     cursor: pointer;
   }
-  .footlist .source div span:hover {
+  .footlist .source .addtion span:hover {
     color: #dd9b2d;
   }
   .footlist .chat {
@@ -752,6 +751,7 @@ html,body {
   }
   .footlist .link {
     width: 200px;
+    position: relative;
   }
   .footlist .link .name {
     font-size: 14px;
@@ -771,6 +771,17 @@ html,body {
   }
   .footlist .link .addtion span a {
     color: #fff;
+  }
+  .footlist .link .wechat {
+    height: 60px;
+    top: 80px;
+    position: absolute;
+    display: none;
+  }
+  .footlist .link .wechat img {
+    height: 60px;
+    width: 60px;
+    /* display: none; */
   }
   .web-right {
     font-size: 10px;
@@ -905,6 +916,7 @@ html,body {
     position: absolute;
     top: 0;
     left: 0;
+    display: none;
   }
   .drc-slogan .drc-name {
     text-align: right;
@@ -1007,7 +1019,7 @@ html,body {
   }
   .footer {
     width: 100%;
-    height: 240px;
+    min-height: 240px;
     overflow: auto;
     margin-top: -2px;
     background: url(../images/bgc12.png) no-repeat;
@@ -1055,7 +1067,7 @@ html,body {
   .drc-midbox {
     width: 1280px;
     margin: 0 auto;
-    min-height: 100px;
+    min-height: 220px;
     overflow: auto;
   }
   .what-list {
@@ -1436,7 +1448,6 @@ html,body {
   .footlist {
     letter-spacing: -0.5em;
     width: 100%;
-    overflow: auto;
     height: 150px;
   }
   .footlist li {
@@ -1478,7 +1489,7 @@ html,body {
     font-size: 16px;
     color: #fff;
     line-height: 2;
-    cursor: pointer;
+    cursor: default;
   }
   .footlist .source .addtion {
     font-size: 16px;
@@ -1487,7 +1498,7 @@ html,body {
     line-height: 2;
     cursor: pointer;
   }
-  .footlist .source div span:hover {
+  .footlist .source .addtion span:hover {
     color: #dd9b2d;
   }
   .footlist .chat {
@@ -1522,6 +1533,7 @@ html,body {
   }
   .footlist .link {
     width: 310px;
+    position: relative;
   }
   .footlist .link .name {
     font-size: 16px;
@@ -1534,6 +1546,13 @@ html,body {
     color: #fff;
     margin-top: 25px;
     line-height: 2;
+  }
+  .footlist .link .wechat {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 100px;
+    display: none;
   }
   .footlist .link .addtion span {
     margin-right: 15px;
@@ -1672,6 +1691,7 @@ html,body {
     position: absolute;
     top: 0;
     left: 0;
+    display: none;
   }
   .drc-slogan .drc-name {
     text-align: right;
@@ -2239,13 +2259,13 @@ html,body {
     background-color: #dd9b2d;
   }
   .footlist .source {
-    width: 290px;
+    width: 280px;
   }
   .footlist .source .name {
     font-size: 18px;
     color: #fff;
     line-height: 36px;
-    cursor: pointer;
+    cursor: default;
   }
   .footlist .source .addtion {
     font-size: 18px;
@@ -2254,7 +2274,7 @@ html,body {
     line-height: 36px;
     cursor: pointer;
   }
-  .footlist .source div span:hover {
+  .footlist .source .addtion span:hover {
     color: #dd9b2d;
   }
   .footlist .chat {
@@ -2277,9 +2297,11 @@ html,body {
   }
   .footlist .chat .addtion span a {
     color: #fff;
+    font-size: 18px;
   }
   .footlist .chat .addtion i {
     margin-right: 10px;
+    font-size: 18px;
   }
   .footlist .chat .web {
     font-size: 18px;
@@ -2288,7 +2310,8 @@ html,body {
     line-height: 36px;
   }
   .footlist .link {
-    width: 318px;
+    width: 308px;
+    position: relative;
   }
   .footlist .link .name {
     font-size: 18px;
@@ -2302,12 +2325,24 @@ html,body {
     margin-top: 50px;
     line-height: 36px;
   }
+  .footlist .link .wechat {
+    width: 100px;
+    height: 100px;
+    top: 150px;
+    position: absolute;
+    display: none;
+  }
+  .footlist .link .wechat img {
+    width: 100px;
+    height: 100px;
+  }
   .footlist .link .addtion span {
     margin-right: 15px;
     cursor: pointer;
   }
   .footlist .link .addtion span a {
     color: #fff;
+    font-size: 18px;
   }
   .web-right {
     font-size: 10px;

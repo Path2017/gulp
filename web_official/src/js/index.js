@@ -48,5 +48,12 @@ $(function () {
   $('#terms').click(function(){
     window.open('./files/Terms_and_Conditions.pdf');
   })
+  // show wechat
+  $('#showWechat').mouseover(function(){
+    $('#wxpic').show()
+  })
+  $('#showWechat').mouseout(function(){
+    $('#wxpic').hide()
+  })
 })
 
