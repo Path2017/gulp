@@ -100,7 +100,7 @@ body,html {
   overflow: hidden;
 }
 .wrapper .vedio-box .vedio-content video::-webkit-media-controls-panel {
-  width: 108%;
+  width: 112%;
 }
 .wrapper .drc-what {
   width: 100%;
@@ -494,6 +494,13 @@ body,html {
 .footer .foot-content .midcheck .midright {
   width: 48%;
   float: left;
+}
+.footer .foot-content .midcheck .midright .wechatpic {
+  width: 7rem;
+  margin-top: 2rem;
+}
+.footer .foot-content .midcheck .midright .wechatpic img{
+  width: 7rem;
 }
 .footer .foot-content .midcheck .midright .btoname {
   color: #fff;

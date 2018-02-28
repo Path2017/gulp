@@ -101,7 +101,7 @@ html {
   overflow: hidden;
 }
 .wrapper .vedio-box .vedio-content video::-webkit-media-controls-panel {
-  width: 108%;
+  width: 112%;
 }
 .wrapper .vedio-box .vedio-content video::-webkit-media-controls-fullscreen-button + input {
   display: none;
@@ -515,6 +515,13 @@ html {
   color: #99999a;
   margin-right: 1.5rem;
   line-height: 2;
+}
+.footer .foot-content .midcheck .midright .wechatpic {
+  width: 7rem;
+  margin-top: 2rem;
+}
+.footer .foot-content .midcheck .midright .wechatpic img {
+  width: 7rem;
 }
 .footer .copyright {
   font-size: 1.1rem;
